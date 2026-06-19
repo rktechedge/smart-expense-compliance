@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+# Environments and credentials
+.env
+.env.*
+.venv
+.venv*
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Cache directories
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Agent Development Kit (ADK)
+.adk/
+**/session.db
+**/session.db-journal
+.google-agents-cli/
+.persist_vector_store
+.saved_chats
+.requirements.txt
+
+# Local installations
+google-cloud-sdk/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Node.js
+node_modules/
