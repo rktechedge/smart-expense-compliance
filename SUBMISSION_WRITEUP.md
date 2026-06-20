@@ -1,6 +1,8 @@
 # Smart Expense Compliance
 ### An Agentic Real-Time Expense Auditing System with PII Redaction, Prompt Injection Defense, and Human-in-the-Loop Approval
 
+![Smart Expense Compliance Cover Page](assets/cover_page_banner.png)
+
 ---
 
 ## 1. Problem Statement
@@ -26,6 +28,8 @@ The **Smart Expense Compliance** system addresses these issues by combining a gr
 At a high level, the system ingests expense payloads (simulating Pub/Sub messages or emails), runs them through a deterministic triage step, applies a zero-trust security checkpoint, conducts an LLM-driven compliance audit using Google Gemini, and—when necessary—pauses execution to request human override via an interactive web interface.
 
 Below is the visual architecture representing the flow of an expense report:
+
+![Smart Expense Compliance Architecture](assets/architecture_diagram.png)
 
 ```mermaid
 graph TD
